@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "704875682387",
+    "project_id": "knockman-476b4",
+    "storage_bucket": "knockman-476b4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704875682387:android:bacdcef05ab5975a3c04a6",
+        "android_client_info": {
+          "package_name": "com.example.flutter_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvrfaySio6LRMjTYcsNMuQHLBOVWHz1C0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

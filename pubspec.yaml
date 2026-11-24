@@ -1,0 +1,52 @@
+name: Knockman
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animate_do: ^3.1.2
+  cupertino_icons: ^1.0.8
+  video_player: ^2.9.1
+  image_picker: ^1.0.4
+  url_launcher: ^6.3.0
+  whatsapp_launcher: ^1.0.0
+  http: ^1.2.2
+  mailer: ^6.1.2
+  shared_preferences: ^2.2.3
+  firebase_core: ^2.16.0
+  cloud_firestore: ^4.9.0
+  firebase_auth: ^4.10.0  # ← ADD THIS FOR AUTHENTICATION
+  js: ^0.7.1  # Added js package for web interop
+  logging: ^1.2.0
+  uuid: ^4.2.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/clean.jpg
+    - assets/paint.jpg
+    - assets/repair.jpg
+    - assets/plumber.jpg
+    - assets/furniture.jpg
+    - assets/pesticides.jpg
+    - assets/intro.mp4
+  fonts:
+    - family: Outfit
+      fonts:
+        - asset: fonts/Outfit-Regular.ttf
+        - asset: fonts/Outfit-Bold.ttf
+          weight: 800
+        - asset: fonts/Outfit-Medium.ttf
+          weight: 400

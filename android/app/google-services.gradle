@@ -1,0 +1,4 @@
+// android/app/google-services.gradle
+
+// Apply Google Services plugin
+apply plugin: 'com.google.gms.google-services'
